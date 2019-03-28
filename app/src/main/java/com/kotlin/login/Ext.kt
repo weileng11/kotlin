@@ -1,0 +1,7 @@
+package com.kotlin.login
+
+import android.util.Log
+
+fun loge(tag: String, content: String?) {
+    Log.e(tag, content ?: tag)
+}
